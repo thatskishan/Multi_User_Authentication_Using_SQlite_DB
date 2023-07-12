@@ -1,16 +1,58 @@
-# multi_user_app
+# Flutter User Management App
 
-A new Flutter project.
+This Flutter application allows you to manage user data, including signup, login, and user list functionality. Users can sign up with their name, email, password, and role. The app provides authentication and authorization features to ensure secure access to user data.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- User signup: Register a new user with name, email, password, and role.
+- User login: Authenticate users with their email and password.
+- User list: Display a list of registered users with their names and roles.
+- Admin privileges: Admin users can delete user data.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repository to your local machine:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   ```bash
+   git clone https://github.com/thatskishan/Multi_User_Authentication_Using_SQlite_DB.git 
+   ```
+
+2. Install the necessary dependencies using Flutter:
+
+   ```bash
+   flutter pub get
+   ```
+
+3. Run the app on an emulator or physical device:
+
+   ```bash
+   flutter run
+   ```
+
+## Dependencies
+
+- `path: ^x.x.x` - A package providing utilities for working with file and directory paths.
+- `sqflite: ^x.x.x` - A package for working with SQLite databases in Flutter.
+- `google_fonts: ^x.x.x` - A package for easily adding Google Fonts to your Flutter app.
+
+## Usage
+
+1. Sign up with a new user account using the signup screen.
+2. Log in with the registered email and password.
+3. On the home screen, you can view the list of registered users.
+4. If you have admin privileges, you can delete user data.
+5. Log out using the logout button in the app bar.
+
+## Contributing
+
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to create a pull request or open an issue in this repository.
+
+## Screenshots
+
+Include relevant screenshots of your application here to showcase its features. For example:
+
+![Login Screen](screenshots/login_screen.png)
+
+![User List Screen](screenshots/user_list_screen.png)
+
+## Highlights
