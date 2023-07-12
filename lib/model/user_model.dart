@@ -12,7 +12,6 @@ class User {
       required this.password,
       required this.role});
 
-  // Add a factory constructor to convert a map to a User object
   factory User.fromMap(Map<String, dynamic> map) {
     return User(
       id: map['Id'],
@@ -23,7 +22,6 @@ class User {
     );
   }
 
-  // Add a method to convert the User object to a map
   Map<String, dynamic> toMap() {
     return {
       'Id': id,
